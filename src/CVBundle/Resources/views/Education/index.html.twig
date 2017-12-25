@@ -1,0 +1,15 @@
+<h1>Educations</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for education in educations %}
+    <tr>
+        <td>{{ education.titre }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

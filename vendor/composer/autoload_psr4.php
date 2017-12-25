@@ -52,5 +52,5 @@ return array(
     'Doctrine\\Bundle\\DoctrineBundle\\' => array($vendorDir . '/doctrine/doctrine-bundle'),
     'Composer\\CaBundle\\' => array($vendorDir . '/composer/ca-bundle/src'),
     'Cocur\\Slugify\\' => array($vendorDir . '/cocur/slugify/src'),
-    'AppBundle\\' => array($baseDir . '/src/AppBundle'),
+    '' => array($baseDir . '/src'),
 );
